@@ -11,7 +11,9 @@
     "test:e2e:smoke": "npx playwright test tests-examples/ --grep @smoke --project=chromium",
     "test:e2e:non-smoke": "npx playwright test tests-examples/ --grep-invert @smoke --project=firefox",
     "test:visual:acme": "npx playwright test example-applitools.spec.ts --project=chromium",
-    "test:visual:playwright": "npx playwright test example3.spec.ts --project=all-browsers-and-tests"
+    "test:visual:playwright": "npx playwright test example3.spec.ts --project=all-browsers-and-tests",
+    "test:edge": "npx playwright test example2.spec.ts --project=edge",
+    "test:chapter2": "npx playwright test chapter2-tests.spec.ts --project=chromium"
   },
   "keywords": [],
   "author": "",
